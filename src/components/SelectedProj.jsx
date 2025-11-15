@@ -158,7 +158,7 @@ function SelectedProj() {
       {isMouseDevice ? (
         // 🖱 Mouse-based layout (Hover effects enabled)
         <div className='project-cont' ref={projectContRef}>
-          {['Sahulat-Hub', 'Weather App','Digital Invoice System', 'Hotel Management', 'Portfolio','House Price Prediction System','Unique Art Generator'].map((title, index) => (
+          {['Sahulat-Hub', 'Weather App','Digital Invoice System', 'Hotel Management', 'Custom Portfolios','House Price Prediction System','Unique Art Generator'].map((title, index) => (
             <div className='proj69' ref={(el) => (projectRefs.current[index] = el)} key={index}>
               <div className='project' onClick={(e) => showProjectScreen(title, e)}>
                 <div className='project-name'>
